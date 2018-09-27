@@ -77,7 +77,7 @@ public class App {
         /**
          * Note: labels can also be obtained from the target alphabet
          */
-        	 evaluator = new TokenAccuracyEvaluator(
+        	 TokenAccuracyEvaluator evaluator = new TokenAccuracyEvaluator(
                 new InstanceList[] {training, testing}, new String[] {"Training", "Testing"});
         TransducerEvaluator perClassEvaluator = new PerClassAccuracyEvaluator(
                 new InstanceList[] {training, testing}, new String[] {"Training", "Testing"});
