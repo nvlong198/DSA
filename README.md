@@ -5,7 +5,8 @@
 ## Java project
 import as Maven project.
 
--train path to training file
--test path to testing file
--modelfile result model file after train
--modelname name model
+training in terminal
+>-train [path to training file]
+>-test [path to testing file]
+>-modelfile [result model file after train]
+>-modelname [name model]
